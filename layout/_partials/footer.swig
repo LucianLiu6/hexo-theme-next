@@ -9,6 +9,7 @@
     <i class="fa fa-{{ theme.footer.icon.name }}"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || author }}</span>
+  <span>&nbsp;<a href="http://www.miitbeian.gov.cn/">粤ICP备19081196号</a></span>
 
   {% if config.symbols_count_time.total_symbols %}
     <span class="post-meta-divider">|</span>
